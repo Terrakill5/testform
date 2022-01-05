@@ -1,0 +1,44 @@
+h1{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2{
+    margin: 0px;
+}
+
+div{
+    display: inline-block;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin-right: 50px;
+}
+.right{
+    display: flex-end;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: green;
+    padding: 10px;
+    text-align: right;
+}
+
+.center{
+    width: 50%;
+    margin: 0px;
+    padding: 0px 5px;
+    border-left: 2px solid green;
+}
+
+.medio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}

@@ -1,0 +1,50 @@
+ .enlace{ /*esta clase funciona para hacer de navegador  */
+    display: inline-block; /* hace que el navegador se comporte como bloques uno detras del otro*/
+    background-color: salmon;
+    color:#fff;
+    padding: 10px 30px;
+    text-decoration: none; /*quita el subrayado */ 
+
+}
+
+.enlace:hover{ /*funciona para que al poner encima el cursor cambie de color */
+    background-color: rosybrown;
+}
+nav{
+    background-color: cyan;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: darkgoldenrod;
+    text-decoration: darkgray;
+}
+button:hover{
+    background-color: darkgreen;
+}
+button:active{
+    background-color: darkred;
+}
+
+.nav_button{
+    background-color: salmon;
+    padding: 10px 0px;
+    border: 2px solid #fff;
+    display: none;
+    color: #fff;
+}
+
+@media(max-width: 600px) {
+    nav{
+        background-color: darkslategray;
+        flex-direction: column;
+    }
+    .enlace{
+        margin: 10px 0px;
+    }
+    .nav_button{
+        display: inline-block;
+    }
+}
