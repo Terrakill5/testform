@@ -1,0 +1,23 @@
+p{
+    color: green;
+}
+
+.containerdad{
+    display: flex;
+    background-color: gray;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    flex-flow: row wrap;
+
+}
+
+.containerson{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    width: 250px;
+    height: 370px;
+    flex: 1 1 30%;
+}
