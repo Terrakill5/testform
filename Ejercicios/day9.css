@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color:rgb(216, 180, 180);
+}
+
+h1{
+    color: rgba(105, 26, 207, 0.76);;
+}
+
+a{
+    display: inline-block;
+    background-color: yellow;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+main{
+    border-radius: 5px;
+    margin-top: 40px;
+    color: snow;
+    display: inline-block;
+    text-align: left;
+    width: 670px;
+    padding: 20px;
+    background-color: rgba(105, 26, 207, 0.76);
+}
+
+ul{
+    padding-inline-start: 20px;
+    line-height: 160%;
+}
+
+li{
+    list-style: none;
+}
+
+span{
+    background-color: rgb(230, 226, 179);
+    color: black;
+}
+
+.exception{
+    color: rgb(230, 226, 179);
+}
+
+#op{
+    color: rgba(0, 0, 0, 0.7);
+}

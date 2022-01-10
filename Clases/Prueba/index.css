@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    color: rgb(83, 75, 75);
+}
+
+img{
+    margin-bottom: -100px;
+    border-radius: 50px;
+    border-style: solid;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: brown;
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(43, 6, 36);
+}
+
+a{
+    color: salmon;
+    text-decoration: none;
+}
+
+a:hover{
+    color: sandybrown;
+    text-decoration: underline;
+}
+
+#Fondo{
+    border-style: solid;
+    margin: 50px;
+    background-color: rgba(233, 173, 8, 0.801);
+    padding: 50px 100px;
+}
